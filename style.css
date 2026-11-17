@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(biriyani.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: black;
+    background-repeat: repeat;
+}
+
+#logo {
+    color: rgb(181, 123, 109);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#world {
+color: bisque;
+}
+
+i {
+    color: rgb(181, 123, 109);
+    font-size: 18px;
+    margin-right: 90px;
+    padding: 12px 30px;
+    transition: .4s;
+}
+
+i:hover {
+transform: scale(1.5);
+cursor: pointer;
+}
+
+a {
+    font-size: 18px;
+    margin-right: 90px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-top: 28px;
+}
+
+#Menu:hover {
+    color: rgb(181, 123, 109);
+    transition: .4s;
+    }
+
+.header {
+    position: relative; 
+    cursor: pointer; 
+}
+
+.rice {
+    font-size: 90px;
+}
+
+#learn {
+    font-size: 30px;
+    text-align: center;
+}
+
+#cursive
+{
+    font-family: "Meow Script", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    display: inline;
+}
+
+#main {
+    width: max-content;
+    position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card{
+    margin: 65px;
+    overflow: hidden;
+    
+}
+.intro{
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 190px;
+    bottom: 190px;
+    background: rgb(27, 27, 27, .55);
+    visibility: hidden;
+    opacity: 0;
+    color: rgb(8, 7, 7);
+    transition: .5s;
+    text-align: center;
+}
+.card:hover{
+    cursor: pointer;
+}
+h2 {
+    visibility: hidden;
+    opacity: 0;
+    font-family: sans-serif;
+}
+.card_button{
+    visibility: hidden;
+    opacity: 0;
+    text-decoration: none;
+    background-color: rgb(174, 143, 106);
+    border-radius: 1rem;
+    padding: 10px;
+    line-height: 3.5;
+    margin-left: 27%;
+}
+.card_button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+p{
+    visibility: hidden;
+    opacity: 0;
+    font-family: sans-serif;
+}
+.card:hover .intro {
+    width: 300px;
+    height: 180px;
+    bottom: 300px;
+    visibility: visible;
+    opacity: 1;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.card:hover h2{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover .card_button{
+    opacity: 1;
+    visibility: visible;
+}
+.title {
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 120px;
+}
+.fav {
+    color: white;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-family: "Meow Script", cursive;
+}
+
+.third {
+    background-image: url(woman.jpg);
+        height: 800px;
+        width: 100%;
+        margin-top: 170px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+
+.des {
+    padding: 20%;
+}
+#biriyani {
+    font-size: 130px;
+    text-align: center;
+    font-family: "Meow Script", cursive;
+}
+#words {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align-last: center;
+}
+.explore {
+    color: black;
+    padding: 20px;
+    border-radius: 3rem;
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(174, 143, 106);
+    transition: .5s;
+    font-family: sans-serif;
+}
+#ex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.last {
+    background-color: rgb(80, 61, 39);
+    height: 90px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10%;
+    font-weight: bold;
+    line-height: 3rem;
+}
+.footer {
+    background-color:rgb(80, 61, 39);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+}
+#get {
+    font-size: 25px;
+}
+#help {
+font-size: 25px;
+}
